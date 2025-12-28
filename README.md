@@ -2,7 +2,7 @@
 
 Welcome to the official release site for **Joyful Days**! This project is the digital evolution of our **2026 Desk Calendar Gift Set**, designed to bring warmth and artistic inspiration to your screens.
 
-![il_794xN 7537230065_silw](https://github.com/user-attachments/assets/25c73ca6-135d-4e39-9eea-2cc66d42398a)
+<img src="https://github.com/user-attachments/assets/25c73ca6-135d-4e39-9eea-2cc66d42398a" width="400" alt="Joyful Days Art">
 
 Joyful Days is more than just a calendar; it is a curated collection of **12 hand-drawn illustrations** celebrating the gentle beauty of daily life. Our goal is to share these "tiny joys" with a global community through this digital version.
 
