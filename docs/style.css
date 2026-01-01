@@ -165,19 +165,16 @@ nav {
 .btn-main {
     display: inline-block;
     padding: 1rem 2.5rem;
-    background: var(--primary);
+    background: #ff3366; /* Vibrant Highlight Color */
     color: white;
     text-decoration: none;
     border-radius: 50px;
     font-weight: 600;
     transition: var(--transition);
-    box-shadow: 0 10px 20px rgba(255, 133, 162, 0.3);
 }
 
 .btn-main:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 30px rgba(255, 133, 162, 0.4);
-    background: var(--primary-dark);
 }
 
 .btn-secondary {
@@ -201,9 +198,10 @@ nav {
 
 .btn-primary {
     padding: 0.6rem 1.5rem;
-    background: var(--primary);
+    background: #ff3366;
     color: white !important;
     border-radius: 50px;
+    transition: var(--transition);
 }
 
 /* Highlights Section */
@@ -355,16 +353,22 @@ nav {
 @media (max-width: 900px) {
     .highlights-row, .highlights-row.reverse {
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
         text-align: center;
     }
     
     .highlights-container {
-        gap: 6rem;
+        gap: 4rem;
     }
     
     .highlights-text h3 {
         font-size: 1.8rem;
+    }
+
+    .highlights-image {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
     }
 }
 
@@ -451,10 +455,42 @@ footer {
         display: block;
     }
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
-    .nav-links a:not(.btn-primary) {
+    .nav-links {
+        gap: 1rem;
+    }
+    .nav-links a:not(.btn-primary):not(.lang-switch) {
         display: none;
+    }
+    .section-title h2 {
+        font-size: 2.2rem;
+    }
+    .download-card, .connect-card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.5rem 1rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    .logo-img {
+        height: 24px;
+        width: 24px;
+    }
+    .hero {
+        padding-top: 60px;
+    }
+    .download-section, .highlights-section, .connect-section {
+        padding: 3rem 1.5rem;
+    }
+    .section-title h2 {
+        font-size: 2rem;
     }
 }
 
