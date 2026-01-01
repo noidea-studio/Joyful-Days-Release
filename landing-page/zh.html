@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyful Days | 治愈身心的桌面艺术日历</title>
+    <meta name="description" content="体验一款原创艺术日历。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Firebase Analytics -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-analytics.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyB3cdWCKo1MAB-FVk_4rdyJUDeSnCB6K2c",
+            authDomain: "no-idea-calendar-12d16.firebaseapp.com",
+            projectId: "no-idea-calendar-12d16",
+            storageBucket: "no-idea-calendar-12d16.firebasestorage.app",
+            messagingSenderId: "524015633406",
+            appId: "1:524015633406:web:a23abce2df421169b276af",
+            measurementId: "G-KKG32HDSB1"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/app_icon.png" alt="Joyful Days 图标" class="logo-img">
+                Joyful Days <span class="version-tag">v0.2.2</span>
+            </div>
+            <div class="nav-links">
+                <a href="#highlights">亮点</a>
+                <a href="#connect">联系我们</a>
+                <a href="index.html" class="lang-switch">English</a>
+                <a href="#download" class="btn-primary">立即下载</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">一款治愈身心的<br />艺术日历</h1>
+                <p class="subtitle fade-in-delayed">与艺术同行，开启你的美丽2026</p>
+                <div class="cta-group fade-in-delayed">
+                    <a href="#download" class="btn-main">开始体验</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download-section">
+            <div class="section-title">
+                <h2>🗂️ 获取 Joyful Days</h2>
+                <p>选择你的平台，开启你的治愈之旅。</p>
+            </div>
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="platform-icon">🤖</div>
+                    <h3>Android</h3>
+                    <p>适用于所有设备的通用 APK。</p>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.0/Joyful.Days.0.2.2.for.Android.apk"
+                        class="btn-download">下载 APK</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">💻</div>
+                    <h3>Windows</h3>
+                    <p>桌面端可执行版本。</p>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.0/Joyful.Days.0.2.2.for.Windows.zip"
+                        class="btn-download">下载 ZIP</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">🍎</div>
+                    <h3>macOS</h3>
+                    <p>支持 macOS 系统。</p>
+                    <a href="https://support.apple.com/zh-cn/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac"
+                        target="_blank" class="help-link">如何在 macOS 上安装？</a>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.0/Joyful.Days.0.2.2.for.macOS.dmg"
+                        class="btn-download">下载 DMG</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">🖼️</div>
+                    <h3>实体版</h3>
+                    <p>获取限量版 2026 纸质礼盒套装。</p>
+                    <a href="https://www.etsy.com/listing/4419900528/2026-desk-calendar-gift-set-cute-animal"
+                        target="_blank" class="btn-download">在 Etsy 购买</a>
+                </div>
+
+                <div class="download-card gray-out">
+                    <div class="platform-icon">🏪</div>
+                    <h3>Google Play</h3>
+                    <p>官方商店版本。</p>
+                    <span class="status-badge">快上线了</span>
+                </div>
+                <div class="download-card gray-out">
+                    <div class="platform-icon">🍏</div>
+                    <h3>iOS App Store</h3>
+                    <p>让我们知道你是否感兴趣。</p>
+                    <a href="#connect" class="btn-download">想用 iOS 版！</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">📦</div>
+                    <h3>GitHub Releases</h3>
+                    <p>查看所有历史版本。</p>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases" target="_blank"
+                        class="btn-download">所有版本</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="highlights" class="highlights-section">
+            <div class="section-title">
+                <h2>✨ 亮点</h2>
+                <p>为卓越审美而设计。</p>
+            </div>
+            <div class="highlights-container">
+                <!-- Highlight 1 -->
+                <div class="highlights-row">
+                    <div class="highlights-text">
+                        <h3>🎨 画廊级艺术</h3>
+                        <p>我们把画廊级的插画带到了电子世界，现已全面数字化并支持超高分辨率。每个月都是精心挑选的杰作，旨在为你的日常生活增添一份艺术气息。</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/highlight_gallery.jpg" alt="画廊级艺术">
+                    </div>
+                </div>
+
+                <!-- Highlight 2 -->
+                <div class="highlights-row reverse">
+                    <div class="highlights-text">
+                        <h3>🤝 你的无声伴侣</h3>
+                        <p>专为陪伴而设计。凭借无边框透明窗口、置顶显示以及艺术化的柔边功能，它能作为一个精美且不干扰工作的桌面挂件与你的空间完美融合。</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/highlight companion.png" alt="无声伴侣挂件">
+                    </div>
+                </div>
+
+                <!-- Highlight 3 -->
+                <div class="highlights-row">
+                    <div class="highlights-text">
+                        <h3>💻 无缝适配</h3>
+                        <p>在各种设备上体验宁静。Joyful Days 原生适配 Windows、macOS、Android (甚至是 XR！)，确保无论身处何地，你的日程始终美轮美奂。</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/banner.jpg" alt="无缝适配">
+                    </div>
+                </div>
+
+                <!-- Highlight 4 -->
+                <div class="highlights-row reverse">
+                    <div class="highlights-text">
+                        <h3>🏮 多语言支持</h3>
+                        <p>完整支持中英文语言环境，集成主要节日。切换至中文模式即可开启完整的农历支持、生肖及二十四节气显示。</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/highlight_multi.jpg" alt="文化支持">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="connect-section">
+            <div class="section-title">
+                <h2>💌 共同创作</h2>
+                <p>获取我们的最新资讯。加入我们的旅程，用艺术创造更多治愈的力量。</p>
+            </div>
+            <div class="connect-grid">
+                <a href="https://www.instagram.com/noideastudiooo/" target="_blank" class="connect-card">
+                    <div class="connect-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>@noideastudiooo</p>
+                </a>
+                <a href="mailto:noideastudiooo@gmail.com" class="connect-card">
+                    <div class="connect-icon">📧</div>
+                    <h3>电子邮件</h3>
+                    <p>noideastudiooo@gmail.com</p>
+                </a>
+                <a href="https://xhslink.com/m/3HcAwkM9i9n" target="_blank" class="connect-card">
+                    <div class="connect-icon">📕</div>
+                    <h3>小红书</h3>
+                    <p>No Idea Studio</p>
+                </a>
+                <a href="https://ko-fi.com/noideastudio" target="_blank" class="connect-card">
+                    <div class="connect-icon">☕</div>
+                    <h3>Ko-fi</h3>
+                    <p>支持我们的创作之旅</p>
+                </a>
+                <a href="https://www.etsy.com/shop/NoIdeaStudioShop" target="_blank" class="connect-card">
+                    <div class="connect-icon">🎨</div>
+                    <h3>Etsy 商店</h3>
+                    <p>获取我们的实体礼盒</p>
+                </a>
+                <a href="https://groups.google.com/g/noideastudio-healingguides" target="_blank" class="connect-card">
+                    <div class="connect-icon">👥</div>
+                    <h3>Google Groups</h3>
+                    <p>加入我们的社区讨论</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 No Idea Studio.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeBtn = document.querySelector('.close-lightbox');
+
+        document.querySelectorAll('.highlights-image img').forEach(img => {
+            img.addEventListener('click', () => {
+                lightbox.style.display = 'flex';
+                lightboxImg.src = img.src;
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+
+</html>
