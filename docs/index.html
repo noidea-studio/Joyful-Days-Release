@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyful Days | A Healing Calendar for Your Desk and Soul</title>
+    <meta name="description"
+        content="Experience high-aesthetic, desktop-optimized calendar with high-resolution artistry and precision planning.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Firebase Analytics -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-analytics.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyB3cdWCKo1MAB-FVk_4rdyJUDeSnCB6K2c",
+            authDomain: "no-idea-calendar-12d16.firebaseapp.com",
+            projectId: "no-idea-calendar-12d16",
+            storageBucket: "no-idea-calendar-12d16.firebasestorage.app",
+            messagingSenderId: "524015633406",
+            appId: "1:524015633406:web:a23abce2df421169b276af",
+            measurementId: "G-KKG32HDSB1"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/app_icon.png" alt="Joyful Days Icon" class="logo-img">
+                Joyful Days <span class="version-tag">v0.2.2</span>
+            </div>
+            <div class="nav-links">
+                <a href="#highlights">Highlights</a>
+                <a href="#connect">Connect</a>
+                <a href="zh.html" class="lang-switch">中文</a>
+                <a href="#download" class="btn-primary">Download</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">A Healing Calendar for Your Desk and Soul</h1>
+                <p class="subtitle fade-in-delayed">Start your journey with high-quality artistry and digital design.
+                </p>
+                <div class="cta-group fade-in-delayed">
+                    <a href="#download" class="btn-main">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download-section">
+            <div class="section-title">
+                <h2>🗂️ Get Joyful Days</h2>
+                <p>Choose your platform and start your healing journey today.</p>
+            </div>
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="platform-icon">🤖</div>
+                    <h3>Android</h3>
+                    <p>Universal APK for all devices.</p>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.0/Joyful.Days.0.2.2.for.Android.apk"
+                        class="btn-download">Download APK</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">💻</div>
+                    <h3>Windows</h3>
+                    <p>Desktop executable version.</p>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.0/Joyful.Days.0.2.2.for.Windows.zip"
+                        class="btn-download">Download ZIP</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">🍎</div>
+                    <h3>macOS</h3>
+                    <p>Apple Silicon support.</p>
+                    <a href="https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac"
+                        target="_blank" class="help-link">How to install on macOS?</a>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.0/Joyful.Days.0.2.2.for.macOS.dmg"
+                        class="btn-download">Download DMG</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">🖼️</div>
+                    <h3>Physical Edition</h3>
+                    <p>Get the limited 2026 printed gift set.</p>
+                    <a href="https://www.etsy.com/listing/4419900528/2026-desk-calendar-gift-set-cute-animal"
+                        target="_blank" class="btn-download">Shop on Etsy</a>
+                </div>
+
+                <div class="download-card gray-out">
+                    <div class="platform-icon">🏪</div>
+                    <h3>Google Play</h3>
+                    <p>Official store version.</p>
+                    <span class="status-badge">Coming Soon</span>
+                </div>
+                <div class="download-card gray-out">
+                    <div class="platform-icon">🍏</div>
+                    <h3>iOS App Store</h3>
+                    <p>Let's know if you're interested.</p>
+                    <a href="#connect" class="btn-download">Let's build it!</a>
+                </div>
+                <div class="download-card">
+                    <div class="platform-icon">📦</div>
+                    <h3>GitHub Releases</h3>
+                    <p>All historical versions.</p>
+                    <a href="https://github.com/noidea-studio/Joyful-Days-Release/releases" target="_blank"
+                        class="btn-download">All Versions</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="highlights" class="highlights-section">
+            <div class="section-title">
+                <h2>✨ Core Highlights</h2>
+                <p>Designed for aesthetic excellence and functional serenity.</p>
+            </div>
+            <div class="highlights-container">
+                <!-- Highlight 1 -->
+                <div class="highlights-row">
+                    <div class="highlights-text">
+                        <h3>🎨 Gallery-Level Artistry</h3>
+                        <p>Immerse yourself in gallery-level illustrations, now fully digitized in stunning high
+                            resolution. Each month is a hand-picked masterpiece designed to bring a touch of
+                            gallery-quality art to your daily routine.</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/highlight_gallery.jpg" alt="Gallery-Level Artistry">
+                    </div>
+                </div>
+
+                <!-- Highlight 2 -->
+                <div class="highlights-row reverse">
+                    <div class="highlights-text">
+                        <h3>🤝 Your Silent Companion</h3>
+                        <p>Designed to stay by your side. With borderless transparency, stay-on-top positioning, and
+                            artistic soft-edge features, it functions as a beautiful and unobtrusive companion widget
+                            for your workspace.</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/highlight companion.png" alt="Silent Companion Widget">
+                    </div>
+                </div>
+
+                <!-- Highlight 3 -->
+                <div class="highlights-row">
+                    <div class="highlights-text">
+                        <h3>💻 Seamless Adaptability</h3>
+                        <p>Experience serenity on every device. Joyful Days is built to be natively adaptive across
+                            Windows, macOS, and Android (and XR!), ensuring your schedule remains beautiful no matter
+                            where you
+                            work.</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/banner.jpg" alt="Seamless Adaptability">
+                    </div>
+                </div>
+
+                <!-- Highlight 4 -->
+                <div class="highlights-row reverse">
+                    <div class="highlights-text">
+                        <h3>🏮 Cultural Resonance</h3>
+                        <p>Truly global, deeply local. Supports full English and Chinese locales with major festivals
+                            integrated. Switch to Chinese mode for full lunar calendar support and traditional solar
+                            terms.</p>
+                    </div>
+                    <div class="highlights-image">
+                        <img src="assets/highlight_multi.jpg" alt="Cultural Resonance">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="connect-section">
+            <div class="section-title">
+                <h2>💌 Create With Us</h2>
+                <p>Stay updated with our latest news. Even better, join us on our journey to create more healing power
+                    with art.
+                </p>
+            </div>
+            <div class="connect-grid">
+                <a href="https://www.instagram.com/noideastudiooo/" target="_blank" class="connect-card">
+                    <div class="connect-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>@noideastudiooo</p>
+                </a>
+                <a href="mailto:noideastudiooo@gmail.com" class="connect-card">
+                    <div class="connect-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>noideastudiooo@gmail.com</p>
+                </a>
+                <a href="https://xhslink.com/m/3HcAwkM9i9n" target="_blank" class="connect-card">
+                    <div class="connect-icon">📕</div>
+                    <h3>XiaohongShu (Red)</h3>
+                    <p>No Idea Studio</p>
+                </a>
+                <a href="https://ko-fi.com/noideastudio" target="_blank" class="connect-card">
+                    <div class="connect-icon">☕</div>
+                    <h3>Ko-fi</h3>
+                    <p>Support our creative journey</p>
+                </a>
+                <a href="https://www.etsy.com/shop/NoIdeaStudioShop" target="_blank" class="connect-card">
+                    <div class="connect-icon">🎨</div>
+                    <h3>Etsy Shop</h3>
+                    <p>Get our physical gift sets</p>
+                </a>
+                <a href="https://groups.google.com/g/noideastudio-healingguides" target="_blank" class="connect-card">
+                    <div class="connect-icon">👥</div>
+                    <h3>Google Groups</h3>
+                    <p>Join our community discussion</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 No Idea Studio.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script>
+        // Lightbox logic
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeBtn = document.querySelector('.close-lightbox');
+
+        document.querySelectorAll('.highlights-image img').forEach(img => {
+            img.addEventListener('click', () => {
+                lightbox.style.display = 'flex';
+                lightboxImg.src = img.src;
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+
+</html>
