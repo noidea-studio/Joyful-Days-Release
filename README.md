@@ -7,7 +7,11 @@ Welcome to the official release site for **Joyful Days**! This project is the di
 Joyful Days is more than just a calendar; it is a curated collection of **12 hand-drawn illustrations** celebrating the gentle beauty of daily life. Our goal is to share these "tiny joys" with a global community through this digital version.
 
 ## 📥 Downloads
-You can find the latest packages for your favorite platforms on our [Releases Page](https://github.com/noidea-studio/Joyful-Days-Release/releases). Google Play Store link is coming up!
+
+* Android: https://play.google.com/store/apps/details?id=com.noideastudio.joyfuldays
+* iOS: Coming soon!
+* Others: You can find the latest packages for your favorite platforms on our [Download Page](https://noidea-studio.com/joyful-days/#download).
+
 
 ## ✨ Features & Design
 * **Art-Focused Experience:** Each month features unique animal illustrations designed to provide a sense of healing and calm.
