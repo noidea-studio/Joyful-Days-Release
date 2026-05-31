@@ -1,13 +1,13 @@
 {
-  "version": "0.2.8+24",
-  "display_version": "0.2.8",
-  "build_number": 24,
+  "version": "0.3.1+26",
+  "display_version": "0.3.1",
+  "build_number": 26,
   "release_notes": "Latest release",
   "downloadUrls": {
-    "latestVersion": "v0.2.8",
-    "android": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.8/Joyful.Days.0.2.8.for.Android.apk",
-    "windows": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.8/Joyful.Days.0.2.8.for.Windows.zip",
-    "macos": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.2.8/Joyful.Days.0.2.8.for.macOS.dmg",
+    "latestVersion": "v0.3.1",
+    "android": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.3.1/Joyful.Days.0.3.1.for.Android.apk",
+    "windows": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.3.1/Joyful.Days.0.3.1.for.Windows.zip",
+    "macos": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.3.1/Joyful.Days.0.3.1.for.macOS.dmg",
     "googlePlay": "https://play.google.com/store/apps/details?id=com.noideastudio.joyfuldays"
   }
 }
