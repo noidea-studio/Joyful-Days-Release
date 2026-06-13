@@ -8,7 +8,9 @@
     "android": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.3.1/Joyful.Days.0.3.1.for.Android.apk",
     "windows": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.3.1/Joyful.Days.0.3.1.for.Windows.zip",
     "macos": "https://github.com/noidea-studio/Joyful-Days-Release/releases/download/v0.3.1/Joyful.Days.0.3.1.for.macOS.dmg",
-    "googlePlay": "https://play.google.com/store/apps/details?id=com.noideastudio.joyfuldays"
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.noideastudio.joyfuldays",
+    "appStore": "https://apps.apple.com/us/app/joyful-days-healing-with-art/id6773076186",
+    "ios": "https://apps.apple.com/us/app/joyful-days-healing-with-art/id6773076186"
   }
 }
 

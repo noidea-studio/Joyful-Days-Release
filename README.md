@@ -9,7 +9,7 @@ Joyful Days is more than just a calendar; it is a curated collection of **12 han
 ## 📥 Downloads
 
 * Android: https://play.google.com/store/apps/details?id=com.noideastudio.joyfuldays
-* iOS: Coming soon!
+* iOS: https://apps.apple.com/us/app/joyful-days-healing-with-art/id6773076186
 * Others: You can find the latest packages for your favorite platforms on our [Download Page](https://noidea-studio.com/joyful-days/#download).
 
 
